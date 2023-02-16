@@ -1,0 +1,61 @@
+.nav_link {
+  color: white;
+}
+
+.navigation {
+  margin-left: auto;
+  color: white;
+}
+
+.nav_btn {
+  margin-right: 20px;
+}
+
+.auth_panel {
+  height: calc(100vh - 54px);
+}
+
+.auth_form {
+  width: 600px;
+  padding: 50px;
+}
+.auth_form h2 {
+  margin: auto;
+}
+.device_type,
+.device_brand {
+  cursor: pointer;
+}
+
+.device_item {
+  width: 150px;
+  cursor: pointer;
+  border: lightgrey;
+}
+
+.device_name {
+  text-align: center;
+}
+
+.rate_star {
+  width: 250px;
+  height: 240px;
+  font-size: 64px;
+}
+
+.device_price {
+  width: 300px;
+  height: 300px;
+  font-size: 32px;
+  border: 5px solid lightgray;
+}
+
+.device_description {
+  margin: auto;
+}
+.device_description-value {
+  padding: 10px;
+}
+.device_description-value:nth-child(even) {
+  background: lightgray;
+}
