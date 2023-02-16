@@ -4,9 +4,7 @@ import App from "./App";
 import DeviceStore from "./store/DeviceStore";
 import UserStore from "./store/UserStore";
 
-if (process.env.NODE_ENV === "development") {
-  require("./mocks/browser");
-}
+require("./mocks/browser");
 
 export const Context = createContext(null);
 
